@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encrypt File</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<div class="center">
+    <h1>Kodimi i File</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="recipient_email">Adresa Mail e pritesit:</label>
+        <input type="email" id="recipient_email" name="recipient_email" required><br>
+
+        <label for="file">Ngarko File:</label>
+        <input type="file" id="file" name="file" accept=".txt, .doc, .docx" required><br>
+
+        <button type="submit">Kodo dhe dergo file</button>
+    </form>
+    <a href="/">Shko tek Home</a>
+</div>
+</body>
+</html>
