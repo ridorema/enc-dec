@@ -1,0 +1,20 @@
+# created by virtualenv automatically
+*
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore sensitive configuration files
+config.py
+
+# Ignore local development files
+*.sqlite
+*.log
+
+# Ignore generated files
+static/encrypted/
+static/decrypted/
