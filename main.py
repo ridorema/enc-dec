@@ -4,10 +4,10 @@ from email.mime.multipart import MIMEMultipart
 from password_generator import generate_password
 
 # Email configuration
-SMTP_SERVER = 'smtp.gmail.com'
+SMTP_SERVER = 'smtp.domain.com'
 SMTP_PORT = 587
-SMTP_USERNAME = 'doriremanica27@gmail.com'
-SMTP_PASSWORD = 'prcvpraodhlxetpv'
+SMTP_USERNAME = 'your_mail@domain.com
+SMTP_PASSWORD = 'app_key_password'
 RECIPIENT_EMAIL = input("Enter your email address: ")
 
 
